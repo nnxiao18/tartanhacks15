@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69B1F6A01A8619740046B35F /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B1F6A21A8619740046B35F /* beach.jpg */; };
+		69B1F6A51A861A8D0046B35F /* beach-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B1F6A71A861A8D0046B35F /* beach-1.jpg */; };
 		F0F5C4701A85F64500FC5244 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5C46F1A85F64500FC5244 /* main.m */; };
 		F0F5C4731A85F64500FC5244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5C4721A85F64500FC5244 /* AppDelegate.m */; };
 		F0F5C4761A85F64500FC5244 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5C4751A85F64500FC5244 /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69B1F6A11A8619740046B35F /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/beach.jpg; sourceTree = "<group>"; };
+		69B1F6A61A861A8D0046B35F /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = "Base.lproj/beach-1.jpg"; sourceTree = "<group>"; };
+		69B1F6A81A861A900046B35F /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = "en.lproj/beach-1.jpg"; sourceTree = "<group>"; };
 		F0F5C46A1A85F64500FC5244 /* alarmclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarmclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F5C46E1A85F64500FC5244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0F5C46F1A85F64500FC5244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +86,8 @@
 		F0F5C46C1A85F64500FC5244 /* alarmclock */ = {
 			isa = PBXGroup;
 			children = (
+				69B1F6A71A861A8D0046B35F /* beach-1.jpg */,
+				69B1F6A21A8619740046B35F /* beach.jpg */,
 				F0F5C4711A85F64500FC5244 /* AppDelegate.h */,
 				F0F5C4721A85F64500FC5244 /* AppDelegate.m */,
 				F0F5C4741A85F64500FC5244 /* ViewController.h */,
@@ -201,7 +208,9 @@
 			files = (
 				F0F5C4791A85F64500FC5244 /* Main.storyboard in Resources */,
 				F0F5C47E1A85F64500FC5244 /* LaunchScreen.xib in Resources */,
+				69B1F6A51A861A8D0046B35F /* beach-1.jpg in Resources */,
 				F0F5C47B1A85F64500FC5244 /* Images.xcassets in Resources */,
+				69B1F6A01A8619740046B35F /* beach.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +253,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		69B1F6A21A8619740046B35F /* beach.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B1F6A11A8619740046B35F /* en */,
+			);
+			name = beach.jpg;
+			sourceTree = "<group>";
+		};
+		69B1F6A71A861A8D0046B35F /* beach-1.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B1F6A61A861A8D0046B35F /* Base */,
+				69B1F6A81A861A900046B35F /* en */,
+			);
+			name = "beach-1.jpg";
+			sourceTree = "<group>";
+		};
 		F0F5C4771A85F64500FC5244 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +440,7 @@
 				F0F5C48F1A85F64500FC5244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0F5C4901A85F64500FC5244 /* Build configuration list for PBXNativeTarget "alarmclockTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +449,7 @@
 				F0F5C4921A85F64500FC5244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
