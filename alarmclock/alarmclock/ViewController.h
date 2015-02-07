@@ -8,7 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet UISlider *slider;
+    IBOutlet UILabel *label1;
+    IBOutlet UILabel *label2;
+    
+    
+}
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+-(IBAction)slidetheslider:(id)sender;
 
 
 @end

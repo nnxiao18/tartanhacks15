@@ -8,7 +8,16 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@implementation ViewController
+
+-(IBAction)slidetheslider:(id)sender
+{
+    label1.text = [NSString stringWithFormat:@'%1.1f',slider.value];
+}
+
+<#methods#>
+
+@end ViewController ()
 
 @end
 
