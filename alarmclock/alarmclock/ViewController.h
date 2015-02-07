@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "MSVViewController.h"
 
-//@interface MSVViewController() <UIScrollViewDelegate>
-//@property (nonatomic, strong) UIImageView *imageView;
-//@end
 
 @interface ClockViewController : UIViewController <UIScrollViewDelegate>
 
