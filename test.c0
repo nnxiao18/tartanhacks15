@@ -1,0 +1,6 @@
+#use <conio>
+
+int main()
+{
+  return 42;
+}
